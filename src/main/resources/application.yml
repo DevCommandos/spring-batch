@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+spring:
+  batch:
+    job:
+      names: ${job.name:NONE}
+    jdbc:
+      initialize-schema: never  #실행시점마다 sql을 실행할 것인가?
