@@ -7,4 +7,9 @@
         FROM ADVER_INFO
     </select>
 
+    <select id="selectOrders" resultType="java.util.Map">
+        SELECT *
+        FROM ORDERS
+    </select>
+
 </mapper>

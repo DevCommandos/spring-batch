@@ -9,5 +9,6 @@ import java.util.Map;
 public interface BatchMapper {
 
     List<Map<String, Object>> selectAdverIdList() throws Exception;
+    List<Map<String, Object>> selectOrders() throws Exception;
 
 }
